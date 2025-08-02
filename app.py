@@ -37,8 +37,7 @@ def load_models():
     # Load model for health analysis
     print("2. Loading CLIP model for health analysis...")
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    cache_dir = "/tmp/clip_cache"
-    clip_model, clip_preprocess = clip.load("ViT-B/32", device=device, download_root=cache_dir)
+    clip_model, clip_preprocess = clip.load("ViT-B/32", device=device)
     
     print("\nAll models loaded successfully.")
     return plant_model, clip_model, clip_preprocess, device
