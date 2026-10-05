@@ -1,3 +1,5 @@
+This was used for the project at https://github.com/GVodyanov/plant.
+
 🌱 Plant Health & Identification API
 
 An intelligent backend service built for our hackathon project. This API uses a dual-model AI system to analyze an image of a plant, first identifying its species and then assessing its health.
