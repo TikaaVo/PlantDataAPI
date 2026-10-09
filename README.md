@@ -1,4 +1,4 @@
-This was used for the project at https://github.com/GVodyanov/plant.
+This was used for the project at https://github.com/GVodyanov/plant and https://github.com/GVodyanov/plant-desc-parser.
 
 🌱 Plant Health & Identification API
 
